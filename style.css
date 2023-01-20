@@ -5,13 +5,39 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    
 }
 
 body
 {
+    /* background: linear-gradient(90deg, rgba(0,106,133,1) 25%, rgba(255,228,196,1) 75%); */
+    background: rgba(0,106,133,1);
     display: flex;
     margin: 50px;
     font-family: 'Quicksand', sans-serif;
+    animation-name: animacion;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes animacion
+{
+    0%
+    {
+        background: rgba(0,106,133,1);
+    }
+
+    50%
+    {
+        background: rgba(255,228,196,1);
+    }
+
+    100%
+    {
+        background: rgba(0,106,133,1);
+    }
 }
 
 .derecha hr
@@ -23,10 +49,13 @@ body
     display: flex;
     flex-direction: column;
     /* padding: 50px; */
-    background-color: bisque;
+    background-color: #ffe4c4;
     width: 70%;
     padding-right: 50px;
     font-size: 20px;
+    /* border-bottom: 1px solid #006a85;
+    border-right: 1px solid #006a85; */
+    border-radius: 0 50px 50px 0;
 }
 
 .izquierda{
@@ -34,9 +63,12 @@ body
     /* flex-direction: column; */
     align-items: center;
     padding: 50px;
-    background-color: rgb(0, 106, 133);
+    background-color: #006a85;
     /* width: 30%; */
     font-size: 20px;
+    /* border-top: 1px solid #ffe4c4;
+    border-left: 1px solid #ffe4c4; */
+    border-radius: 50px 0 0 50px;
 }
 
 .izquierda .img-container

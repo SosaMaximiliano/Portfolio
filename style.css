@@ -1,0 +1,167 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+    display: flex;
+    margin: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.derecha hr
+{
+    border: 2px solid rgb(0, 106, 133);
+}
+
+.derecha{
+    display: flex;
+    flex-direction: column;
+    /* padding: 50px; */
+    background-color: bisque;
+    width: 70%;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.izquierda{
+    /* //display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(0, 106, 133);
+    /* width: 30%; */
+    font-size: 20px;
+}
+
+.izquierda .img-container
+{
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    background-image: url("./img/Foto.jpg");
+    background-position: 0;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.izquierda .conocimientos
+{
+    display: flex;
+    text-align: left;
+    justify-content: start;
+    color: #fff;
+    padding: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.conocimientos h3
+{
+    margin-bottom: 20px;
+}
+
+.izquierda .conocimientos ul li
+{
+    list-style: disc;
+}
+
+.cabecera span
+{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.cabecera .nombre
+{
+    color: rgb(0, 106, 133);
+}
+
+.cabecera ul
+{
+    line-height: 30px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.datos, .experiencia, .educacion, .idiomas
+{
+    padding: 50px;
+}
+
+.datos ul li
+{
+    display: flex;
+}
+
+.datos p
+{
+    margin-right: 20px;
+}
+
+.datos a
+{
+    color: #000;
+}
+
+.datos a:hover
+{
+    transition-duration: 0.5s;
+    color: rgb(1, 133, 167);
+
+}
+
+.titulo
+{
+    color: rgb(0, 106, 133);
+    margin-bottom: 20px;
+}
+
+.trabajo ul
+{
+    margin: 20px;
+}
+
+.educacion div
+{
+    margin-bottom: 20px;
+}
+
+.idiomas-container
+{
+    /* display: flex; */
+}
+
+.idiomas-container span
+{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.idioma
+{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.idioma .nivel
+{
+    height: 13px;
+    width: 50px;
+    margin: 2px;
+    /* border: 1px solid #000; */
+    background-color: rgb(180, 180, 180);
+}
+
+.idioma .punto
+{
+    background-color: rgb(0, 106, 133);
+}

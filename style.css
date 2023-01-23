@@ -58,6 +58,8 @@ body
     border-radius: 0 50px 50px 0;
 }
 
+/* IZQUIERDA */
+
 .izquierda{
     /* //display: flex; */
     /* flex-direction: column; */
@@ -65,10 +67,13 @@ body
     padding: 50px;
     background-color: #006a85;
     /* width: 30%; */
+    max-width: 350px;
     font-size: 20px;
     /* border-top: 1px solid #ffe4c4;
     border-left: 1px solid #ffe4c4; */
     border-radius: 50px 0 0 50px;
+    transition: 0.5s ease;
+
 }
 
 .izquierda .img-container
@@ -76,6 +81,7 @@ body
     height: 240px;
     width: 240px;
     border-radius: 100%;
+    border: 2px solid #ffe4c4;
     background-image: url("./img/Foto.jpg");
     background-position: 0;
     background-repeat: no-repeat;
@@ -101,8 +107,26 @@ body
 .izquierda .conocimientos ul li
 {
     list-style: disc;
+    line-height: 40px;
 }
 
+.conocimientos li:hover
+{
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+.izquierda:hover
+{
+    box-shadow: 15px 15px 10px rgb(115, 115, 115);
+    translate: 20px -20px;
+}
+
+/* FIN IZQUIERDA */
+
+
+/* DERECHA */
 .cabecera span
 {
     font-size: 70px;
@@ -159,6 +183,7 @@ body
 .trabajo ul
 {
     margin: 20px;
+
 }
 
 .educacion div

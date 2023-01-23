@@ -61,12 +61,13 @@ body
 /* IZQUIERDA */
 
 .izquierda{
-    /* //display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 50px;
     background-color: #006a85;
     /* width: 30%; */
+    width: 350px;
     max-width: 350px;
     font-size: 20px;
     /* border-top: 1px solid #ffe4c4;
@@ -76,16 +77,32 @@ body
 
 }
 
+.izquierda .foto
+{
+    display: flex;
+    justify-content: center;
+}
+
 .izquierda .img-container
 {
-    height: 240px;
-    width: 240px;
+    height: 140px;
+    width: 140px;
     border-radius: 100%;
     border: 2px solid #ffe4c4;
     background-image: url("./img/Foto.jpg");
     background-position: 0;
+    background-size: 100%;
     background-repeat: no-repeat;
     margin-bottom: 30px;
+    transition: 0.5s ease;
+    opacity: 0.8;
+}
+
+.izquierda hr
+{
+    transition: 0.5s ease;
+    opacity: 0.8;
+    width: 20%;
 }
 
 .izquierda .conocimientos
@@ -97,10 +114,12 @@ body
     padding: 20px;
     line-height: 30px;
     font-weight: 500;
+    color: #a3a3a3;
 }
 
 .conocimientos h3
 {
+    transition: 0.5s ease-in-out;
     margin-bottom: 20px;
 }
 
@@ -112,14 +131,15 @@ body
 
 .conocimientos li:hover
 {
-    cursor: pointer;
+    cursor: context-menu;
     font-size: 25px;
     transition: 0.2s ease-in-out;
+    color: #fff;
 }
 
 .izquierda:hover
 {
-    box-shadow: 15px 15px 10px rgb(115, 115, 115);
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
     translate: 20px -20px;
 }
 
@@ -152,6 +172,13 @@ body
     padding: 50px;
 }
 
+.hr-experiencia, .hr-educacion, .hr-idiomas
+{
+    transition: 0.5s ease;
+    width: 0px;
+    margin-bottom: 20px;
+}
+
 .datos ul li
 {
     display: flex;
@@ -177,7 +204,6 @@ body
 .titulo
 {
     color: rgb(0, 106, 133);
-    margin-bottom: 20px;
 }
 
 .trabajo ul

@@ -1,0 +1,56 @@
+@media (max-width: 800px ) {
+    
+    body
+    {
+        flex-direction: column;
+    }
+    
+    .izquierda
+    {
+        border-radius: 50px 50px 0 0; 
+        max-width: 70vw;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.2em;
+    }
+
+    .izquierda:hover
+    {
+        translate: unset;
+        box-shadow: none;
+    }
+
+
+    .izquierda .img-container
+    {
+        min-width: 20vw;
+        min-height: 20vw;
+        max-width: 20vw;
+        max-height: 20vw;
+    }
+
+    .izquierda .conocimientos
+    {
+        overflow: visible;
+        flex-wrap: wrap;
+    }
+
+    .izquierda hr
+    {
+        display: none;
+    }
+
+    .izquierda ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;
+    }
+    
+    .derecha
+    {
+        border-radius: 0 ; 
+        max-width: 70vw;
+    }
+}

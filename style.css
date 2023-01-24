@@ -50,12 +50,13 @@ body
     flex-direction: column;
     /* padding: 50px; */
     background-color: #ffe4c4;
-    width: 70%;
+    max-width: 70vw;
     padding-right: 50px;
     font-size: 20px;
     /* border-bottom: 1px solid #006a85;
     border-right: 1px solid #006a85; */
     border-radius: 0 50px 50px 0;
+    transition: 1s ease;
 }
 
 /* IZQUIERDA */
@@ -66,9 +67,9 @@ body
     align-items: center;
     padding: 50px;
     background-color: #006a85;
-    /* width: 30%; */
-    width: 350px;
-    max-width: 350px;
+    /* width: 350px; */
+    /* max-width: 350px; */
+    max-width: 30vw;
     font-size: 20px;
     /* border-top: 1px solid #ffe4c4;
     border-left: 1px solid #ffe4c4; */
@@ -85,6 +86,7 @@ body
 
 .izquierda .img-container
 {
+    overflow: hidden;
     height: 140px;
     width: 140px;
     border-radius: 100%;
@@ -172,11 +174,12 @@ body
     padding: 50px;
 }
 
-.hr-experiencia, .hr-educacion, .hr-idiomas
+.hr-experiencia, .hr-educacion, .hr-idiomas, .hr-nombre
 {
     transition: 0.5s ease;
     width: 0px;
     margin-bottom: 20px;
+    opacity:0;
 }
 
 .datos ul li
@@ -198,7 +201,6 @@ body
 {
     transition-duration: 0.5s;
     color: rgb(1, 133, 167);
-
 }
 
 .titulo

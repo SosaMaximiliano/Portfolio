@@ -11,7 +11,7 @@
         border-radius: 0 0; 
         max-width: 100%;
         min-width: 650px;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         font-size: 1.2em;
     }
@@ -33,23 +33,31 @@
 
     .izquierda .conocimientos
     {
-        overflow: visible;
-        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
-
+    
     .izquierda hr
     {
         display: none;
     }
-
-    .izquierda ul
+    
+    .izquierda .conocimientos ul
     {
+        width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        /* flex-direction: column; */
         justify-content: space-between;
-        list-style: none;
     }
     
+    .izquierda .conocimientos ul li
+    {
+        list-style: none;
+        margin: 1em;
+        font-size: 20px;
+    }
+
     .derecha
     {
         border-radius: 0 ; 
@@ -57,4 +65,7 @@
         min-width: 650px;
         font-size: 1rem;
     }
+
+
+    
 }

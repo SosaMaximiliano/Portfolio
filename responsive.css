@@ -3,11 +3,12 @@
     body
     {
         flex-direction: column;
+        margin: 0;
     }
     
     .izquierda
     {
-        border-radius: 50px 50px 0 0; 
+        border-radius: 0 0; 
         max-width: 100%;
         min-width: 650px;
         flex-direction: row;

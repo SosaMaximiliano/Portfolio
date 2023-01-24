@@ -19,24 +19,24 @@ body
     animation-duration: 20s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
-    
+    justify-content: center;
 }
 
 @keyframes animacion
 {
     0%
     {
-        background: rgba(0,106,133,1);
+        background: rgb(0, 83, 104);
     }
 
     50%
     {
-        background: rgba(255,228,196,1);
+        background: rgb(226, 203, 175);
     }
 
     100%
     {
-        background: rgba(0,106,133,1);
+        background: rgb(0, 83, 104);
     }
 }
 

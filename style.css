@@ -213,9 +213,10 @@ body
     opacity:0;
 }
 
-.datos ul li
+.datos ul li 
 {
     display: flex;
+    /*align-items: center;*/
 }
 
 .datos p

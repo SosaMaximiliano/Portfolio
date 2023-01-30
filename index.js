@@ -34,6 +34,16 @@ izquierda.querySelector("#proyectos").addEventListener('mouseout' ,()=>{
 });
 
 
+//CURSOS
+izquierda.querySelector("#cursos").addEventListener('mouseover' ,()=>{
+    izquierda.querySelector("#cursos").style = "color:#fff"
+});
+
+izquierda.querySelector("#cursos").addEventListener('mouseout' ,()=>{
+    izquierda.querySelector("#cursos").style = "color:#a3a3a3"
+});
+
+
 //NOMBRE
 derecha.querySelector("#datos").addEventListener('mouseover', ()=>{
     derecha.querySelector("#hr-nombre").style = "width:400px; opacity:1";

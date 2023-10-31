@@ -68,7 +68,7 @@ body
     background-color: #006a85;
     /* width: 350px; */
     /* max-width: 350px; */
-    max-width: 30vw;
+    max-width: 20vw;
     font-size: 20px;
     /* border-top: 1px solid #ffe4c4;
     border-left: 1px solid #ffe4c4; */
@@ -126,7 +126,7 @@ body
 
 .izquierda .conocimientos ul li
 {
-    list-style: disc;
+    /* list-style: disc; */
     line-height: 40px;
 }
 

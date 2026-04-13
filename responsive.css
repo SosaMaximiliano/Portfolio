@@ -45,16 +45,17 @@
     {
         width: 100%;
         display: flex;
-        flex-direction: row;
-        /* flex-direction: column; */
+        /*flex-direction: row;*/
+        flex-direction: column;
         justify-content: space-between;
     }
     
     .izquierda .conocimientos ul li
     {
-        list-style: none;
-        margin: 1em;
+        list-style: disc;
+        /*margin: 1em;*/
         font-size: 20px;
+        text-align: start;
     }
 
     .derecha
